@@ -2,7 +2,7 @@
 	"algo": "rx/0",
 	"pool": "pool.minexmr.com ",
 	"port": 4444,
-	"wallet": "46pU4jyBZ1EJPmKHujFBjGEgZztKnWHuHRAks4ZQwK1a3Kow86emzr96nBk1LoEgdfYgRc5GV3SGaGGBnzzCS28eF2f24Qs",
+	"wallet": "4AAcsAMBiYfFzYgzwJjWZeVLtzjn94VtLFhqiBmJ6aw9fWysERncgxqHdHo8NaE6bN48ErNU9QPu2P557DP8wGkC9cs7D8M",
 	"password": "",
 	"rig-id": "",
 	"keepalive": false,
